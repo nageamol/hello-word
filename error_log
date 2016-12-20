@@ -1,0 +1,30 @@
+E/AndroidRuntime: FATAL EXCEPTION: main
+                                                                                  Process: com.androidnage.primol.picdesign, PID: 16303
+                                                                                  java.lang.VerifyError: com/adobe/creativesdk/aviary/internal/account/BillingContentFactory
+                                                                                      at com.adobe.creativesdk.aviary.AdobeImageBillingService.<init>(AdobeImageBillingService.java:41)
+                                                                                      at com.adobe.creativesdk.aviary.AdobeImageBillingService.getInstance(AdobeImageBillingService.java:220)
+                                                                                      at com.adobe.creativesdk.aviary.internal.account.AdobeAccountConnection.<init>(AdobeAccountConnection.java:31)
+                                                                                      at com.adobe.creativesdk.aviary.AdobeImageEditorActivityAbstract.createAdobeAccountConnection(AdobeImageEditorActivityAbstract.java:552)
+                                                                                      at com.adobe.creativesdk.aviary.AdobeImageEditorActivityAbstract.onCreate(AdobeImageEditorActivityAbstract.java:535)
+                                                                                      at com.adobe.creativesdk.aviary.AdobeImageEditorActivity.onCreate(AdobeImageEditorActivity.java:29)
+                                                                                      at android.app.Activity.performCreate(Activity.java:5447)
+                                                                                      at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1094)
+                                                                                      at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2393)
+                                                                                      at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2493)
+                                                                                      at android.app.ActivityThread.access$800(ActivityThread.java:166)
+                                                                                      at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1283)
+                                                                                      at android.os.Handler.dispatchMessage(Handler.java:102)
+                                                                                      at android.os.Looper.loop(Looper.java:136)
+                                                                                      at android.app.ActivityThread.main(ActivityThread.java:5590)
+                                                                                      at java.lang.reflect.Method.invokeNative(Native Method)
+                                                                                      at java.lang.reflect.Method.invoke(Method.java:515)
+                                                                                      at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:1280)
+                                                                                      at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1096)
+                                                                                      at dalvik.system.NativeStart.main(Native Method)
+                                                                                      
+                                                                                      
+                                                                                      
+                                                                                      adobe creative sdk error: 
+                                                                                      
+                                                                                      its running successfully on 5.0 and up
+                                                                                      but when trying to run on 4.0,4.1,4.4,4.4.2 and 4.4.4 it gived error 
